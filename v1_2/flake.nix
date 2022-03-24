@@ -1,5 +1,5 @@
 {
-  description = ''make-like for Nim. Describe your builds as tasks!'';
+  description = ''make-like for Nimrod. Describe your builds as tasks!'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
