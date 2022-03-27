@@ -11,6 +11,7 @@
   inputs.src-nake-master.ref   = "refs/heads/master";
   inputs.src-nake-master.owner = "fowlmouth";
   inputs.src-nake-master.repo  = "nake";
+  inputs.src-nake-master.dir   = "";
   inputs.src-nake-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
