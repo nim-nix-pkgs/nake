@@ -11,7 +11,6 @@
   inputs.src-nake-v1_8.ref   = "refs/tags/v1.8";
   inputs.src-nake-v1_8.owner = "fowlmouth";
   inputs.src-nake-v1_8.repo  = "nake";
-  inputs.src-nake-v1_8.dir   = "";
   inputs.src-nake-v1_8.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
